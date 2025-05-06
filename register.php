@@ -16,8 +16,8 @@ if(isset($_POST['register'])) {
         $register_message = "akun berhasil dibuat. silahkan login!";
     } else {
         $register_message = "gagal membuat akun, coba lagi!";
+        }
     }
-}
 }
 ?>
 
@@ -39,7 +39,7 @@ if(isset($_POST['register'])) {
         <input type="text" placeholder="username" name="username" class="register-usn">
         <input type="password" placeholder="password" name="password" class="register-pw">
         </div>
-        <p>Sudah punya akun? <a href="login.php">Login</a></p>
+        <p>Sudah punya akun? <a href="index.php">Login</a></p>
         <button type="submit" name="register"> Daftar </button
     </form>
 </section>
